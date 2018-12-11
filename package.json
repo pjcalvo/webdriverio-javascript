@@ -1,0 +1,23 @@
+{
+  "name": "webdriverio-pom-visualvalidation",
+  "version": "1.0.0",
+  "description": "WebDriverIO Proof of Concept with Page Object Model and Visual Verification",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-mochawesome-reporter": "^2.0.1",
+    "wdio-screenshots-cleanup-service": "0.0.7",
+    "wdio-selenium-standalone-service": "0.0.11",
+    "wdio-visual-regression-service": "^0.9.0",
+    "webdriverio": "^4.14.0"
+  },
+  "scripts": {
+    "test": "./node_modules/webdriverio/bin/wdio "
+  },
+  "author": "pablo calvo",
+  "license": "ISC"
+}
